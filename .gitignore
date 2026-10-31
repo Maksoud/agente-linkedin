@@ -1,0 +1,25 @@
+# Dados pessoais do perfil: NUNCA publicar. Só a estrutura (LEIAME.md) vai para o repositório.
+entrada/*
+!entrada/LEIAME.md
+perfil/*
+!perfil/LEIAME.md
+backup/*
+!backup/LEIAME.md
+analise/*
+!analise/LEIAME.md
+!analise/vagas/
+analise/vagas/*
+!analise/vagas/LEIAME.md
+proposta/*
+!proposta/LEIAME.md
+
+# Progresso do solicitante (criado a partir de templates/estado.md)
+/estado.md
+
+# Pasta antiga vazia
+fluxos/
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
