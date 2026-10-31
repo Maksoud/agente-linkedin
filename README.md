@@ -15,7 +15,7 @@ O agente analisa o seu perfil, entende o seu objetivo, procura vagas compatívei
 |---|---|---|
 | 1. Coleta | Lê o PDF e o perfil online, salva cada seção em `perfil/` | Nada (só deixa o Chrome logado) |
 | 2. Questionário | Gera `perfil/09-questionario.md` personalizado | Responde nos campos `> R:` e marca `[x]` |
-| 3. Vagas | Busca até 50 oportunidades e salva em `analise/vagas/` | Revisa a lista |
+| 3. Vagas | Compara o perfil com as competências e os termos que as vagas do mercado pedem para aquela área e salva em `analise/vagas/` | Revisa a lista |
 | 4. Plano | Cria `proposta/…-plano-ajuste.md` com o texto exato de cada seção (e versão no 2º idioma, se houver) | Aplica uma etapa por vez e avisa o agente |
 
 ## Cuidados que o agente já toma

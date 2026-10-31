@@ -1,11 +1,11 @@
 ---
 name: linkedin-buscar-vagas
-description: Buscar no LinkedIn até 50 oportunidades aderentes ao perfil e ao questionário do agente-linkedin, navegando só pela página (sem links montados ou abertos pelo console), com ritmo anti-bloqueio, e salvar a lista em analise/vagas/. Fluxo 3.
+description: Comparar o perfil com as competências e os termos que o mercado pede para a área-alvo, a partir de até 50 vagas aderentes ao perfil e ao questionário do agente-linkedin, navegando só pela página (sem links montados ou abertos pelo console), com ritmo anti-bloqueio, e salvar a lista em analise/vagas/. Fluxo 3.
 ---
 
 # Buscar oportunidades (Fluxo 3)
 
-Objetivo: documento com **até 50 vagas** que se encaixam no perfil procurado, com nota de aderência, lacunas e link real, além dos termos que essas vagas usam, para alimentar o plano.
+Objetivo: **ajustar o perfil ao padrão do mercado**, não procurar emprego. As **até 50 vagas** são a amostra: delas saem as competências e os termos que a área pede, comparados com o perfil (nota de aderência, lacunas e link real de cada vaga) para alimentar o plano de ajuste.
 
 ## Antes de começar
 
