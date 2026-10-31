@@ -42,9 +42,9 @@
 *O que vi no perfil:* [fatos]
 
 **2.1** 🔒 Objetivo principal nos próximos 12 meses (marque um):
-- [ ] **Job seeking** — nova oportunidade (interna ou externa)
-- [ ] **Clientes** — vender serviço/produto
-- [ ] **Autoridade** — ser referência no tema
+- [ ] **Job seeking**: nova oportunidade (interna ou externa)
+- [ ] **Clientes**: vender serviço/produto
+- [ ] **Autoridade**: ser referência no tema
 > R:
 
 **2.2** Objetivo secundário:

@@ -13,7 +13,7 @@ Registrar em `perfil/07-idiomas.md`:
 ```
 ## Perfil em outro idioma
 - Idioma principal: Português
-- Perfil secundário: English — existe (sim/não/não verificado)
+- Perfil secundário: English: existe? (sim/não/não verificado)
 - Campos lidos: nome · headline · Sobre · cargos/descrições (listar)
 - Divergências com o principal: ...
 ```

@@ -1,4 +1,4 @@
-# Agente LinkedIn — guia rápido
+# Agente LinkedIn: guia rápido
 
 O agente analisa o seu perfil, entende o seu objetivo, procura vagas compatíveis e entrega um **plano com os textos prontos** para você colar no LinkedIn. Ele **não altera** o seu perfil.
 
@@ -7,7 +7,7 @@ O agente analisa o seu perfil, entende o seu objetivo, procura vagas compatívei
 1. Exporte seu perfil: **Perfil → Recursos (ou "Mais") → Salvar como PDF**. Coloque o arquivo em `entrada/Profile.pdf`.
 2. (Opcional) Coloque prints da foto, banner e Destaques em `entrada/`.
 3. Deixe o Chrome aberto e logado no LinkedIn (para ler o que o PDF não exporta e para buscar vagas).
-4. Peça ao Claude: **"Siga o agente-linkedin a partir do Fluxo 1"** — ou chame a skill do fluxo pelo nome (ex.: **"rode o linkedin-coletar-perfil"**).
+4. Peça ao Claude: **"Siga o agente-linkedin a partir do Fluxo 1"**, ou chame a skill do fluxo pelo nome (ex.: **"rode o linkedin-coletar-perfil"**).
 
 ## O que acontece em cada fluxo
 
@@ -32,7 +32,7 @@ As pastas `entrada/`, `perfil/`, `backup/`, `analise/` e `proposta/` e o arquivo
 
 ## Licença
 
-MIT — ver `LICENSE.md`. Material de terceiros em `references/LICENSE-linkedin-skills.md`.
+MIT. Veja `LICENSE.md`. Material de terceiros em `references/LICENSE-linkedin-skills.md`.
 
 ## Origem e créditos
 

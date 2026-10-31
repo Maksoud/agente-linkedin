@@ -1,4 +1,4 @@
-# Plano de ajuste do perfil — [AAAA-MM-DD]
+# Plano de ajuste do perfil · [AAAA-MM-DD]
 
 > **Para:** [Nome] · **Objetivo:** [do questionário] · **Revisões:** [datas]
 > **Base:** `perfil/` ([data]) · `analise/[decisoes].md` · `analise/vagas/[arquivo].md` · `analise/[scorecard].md`
@@ -7,14 +7,14 @@
 
 ---
 
-## Etapa 0 — Proteção (antes de tudo)
+## Etapa 0: Proteção (antes de tudo)
 - [ ] Eu → Configurações e privacidade → Visibilidade → **Compartilhar atualizações do perfil → Desativado**
 - [ ] Open to Work: [decisão]
 - [ ] [outros ajustes de privacidade decididos]
 
 ---
 
-## Etapa 1 — [Categoria: ex. Introdução → Headline]
+## Etapa 1: [Categoria: ex. Introdução → Headline]
 
 **Onde:** [caminho]
 **Ação:** Substituir
@@ -36,7 +36,7 @@
 
 ---
 
-## Etapa N — Experiência → [Empresa] · [Cargo]
+## Etapa N: Experiência → [Empresa] · [Cargo]
 
 **Onde:** Experiência → ✏️ no cargo "[título]"
 
@@ -46,7 +46,7 @@
 | Modalidade | [ ] | [ ] |
 | Competências (até 5) | [ ] | [ ] |
 
-**Descrição — Depois**
+**Descrição (Depois)**
 ```
 [parágrafo de contexto]
 

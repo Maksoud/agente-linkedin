@@ -8,7 +8,7 @@
 
 ## Perfil em outro idioma
 - Idioma principal: [ ]
-- Perfil secundário: [idioma] — [existe / não existe ("Adicionar perfil em outro idioma") / não verificado]
+- Perfil secundário em [idioma]: [existe / não existe ("Adicionar perfil em outro idioma") / não verificado]
 - Onde foi visto: [painel direito do perfil / Editar perfil público e URL]
 - Campos lidos:
   - Nome: [ ]

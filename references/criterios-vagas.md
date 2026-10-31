@@ -4,12 +4,12 @@
 
 ## Filtros de exclusão (registrar o motivo de cada descarte)
 
-1. **Falso remoto / modalidade errada** — se o solicitante quer remoto: descartar "híbrido", "presencial", "X dias no escritório", "on-site", "hybrid", "relocation", cidade no título, local sem "(Remoto)". Remoto condicionado ao projeto/cliente ⇒ "remoto não garantido". Falsos positivos a ignorar: "busca híbrida" (RAG), "cloud híbrida", benefício genérico de modalidade. Regra presencial só para outra região ⇒ manter com ressalva.
-2. **Nível abaixo** — títulos Júnior/Jr, Pleno/Pl, Trainee, Estágio, Assistente, Auxiliar, Associate, Entry, Mid-Level; "Analista" sem Sênior/Especialista (salvo descrição com anos compatíveis); descrição pedindo até 3 anos. Exceções definidas no questionário (ex.: cargo estratégico com título "Analista").
-3. **Empresa pequena ou recente** — padrão: descartar 1–50 funcionários; 51–200 ⇒ verificar fundação (< 3 anos descarta) respeitando o limite de 3 páginas de empresa; "fase inicial/early-stage". Recrutadora/plataforma: avaliar o cliente final; cliente anônimo ⇒ "porte não verificável".
-4. **Fora do alvo** — núcleo diferente do cargo-alvo (ex.: engenharia hands-on quando o alvo é gestão/arquitetura). Pré-triar pelo título e listar como descartada sem abrir.
-5. **Stack/requisito sem base** — lista de "evitar" do questionário.
-6. **Antiga** — publicada há mais de 30 dias. **Banco de talentos** sem vaga real.
+1. **Falso remoto / modalidade errada**: se o solicitante quer remoto, descartar "híbrido", "presencial", "X dias no escritório", "on-site", "hybrid", "relocation", cidade no título, local sem "(Remoto)". Remoto condicionado ao projeto/cliente ⇒ "remoto não garantido". Falsos positivos a ignorar: "busca híbrida" (RAG), "cloud híbrida", benefício genérico de modalidade. Regra presencial só para outra região ⇒ manter com ressalva.
+2. **Nível abaixo**: títulos Júnior/Jr, Pleno/Pl, Trainee, Estágio, Assistente, Auxiliar, Associate, Entry, Mid-Level; "Analista" sem Sênior/Especialista (salvo descrição com anos compatíveis); descrição pedindo até 3 anos. Exceções definidas no questionário (ex.: cargo estratégico com título "Analista").
+3. **Empresa pequena ou recente**: por padrão, descartar 1–50 funcionários; 51–200 ⇒ verificar fundação (< 3 anos descarta) respeitando o limite de 3 páginas de empresa; "fase inicial/early-stage". Recrutadora/plataforma: avaliar o cliente final; cliente anônimo ⇒ "porte não verificável".
+4. **Fora do alvo**: núcleo diferente do cargo-alvo (ex.: engenharia hands-on quando o alvo é gestão/arquitetura). Pré-triar pelo título e listar como descartada sem abrir.
+5. **Stack/requisito sem base**: lista de "evitar" do questionário.
+6. **Antiga**: publicada há mais de 30 dias. **Banco de talentos** sem vaga real.
 7. **Ferramenta/tema que o solicitante não quer** (questionário 3.x / 9.x).
 
 ## Pontuação de aderência (0–10)

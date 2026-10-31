@@ -1,4 +1,4 @@
-# Scripts do navegador — SOMENTE LEITURA
+# Scripts do navegador: SOMENTE LEITURA
 
 Trechos para colar no `javascript_tool` (Claude in Chrome). Cada um é uma função autoexecutável que **só lê** o DOM e devolve JSON curto.
 

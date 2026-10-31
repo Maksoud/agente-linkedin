@@ -12,7 +12,7 @@
 ### Formula
 `[Action verb] + [specific metric]`
 
-Not: `"Responsible for X"` or `"Managed X"` — these are resume fossils that LinkedIn's NLP ignores.
+Not: `"Responsible for X"` or `"Managed X"`: these are resume fossils that LinkedIn's NLP ignores.
 
 ### Before → After
 
@@ -28,7 +28,7 @@ Not: `"Responsible for X"` or `"Managed X"` — these are resume fossils that Li
 
 Led, Built, Increased, Delivered, Shipped, Cut, Drove, Launched, Grew, Closed, Retained, Rebuilt, Scaled
 
-### Action verbs (weak — avoid)
+### Action verbs (weak, avoid)
 
 Worked on, Handled, Assisted with, Responsible for, Participated in, Helped with, Was part of
 
@@ -70,8 +70,8 @@ Include if genuinely applicable:
 ### Skills hygiene
 
 - Remove skills you haven't used in 3+ years (stale signal)
-- Don't list generic soft skills without evidence ("Leadership", "Teamwork") — back them with roles that prove it
-- If you have conflicting skills across roles (e.g., front-end dev + sales), keep them — LinkedIn tolerates breadth
+- Don't list generic soft skills without evidence ("Leadership", "Teamwork"): back them with roles that prove it
+- If you have conflicting skills across roles (e.g., front-end dev + sales), keep them: LinkedIn tolerates breadth
 
 ---
 
@@ -91,9 +91,9 @@ Never: `linkedin.com/in/firstname-lastname-123abc456`
 
 ### Why it matters
 
-- **Memorable** — you can say "linkedin.com/in/sergebulaev" in conversation
-- **SEO** — Google ranks canonical URLs higher than hash-tail URLs
-- **Email signatures** — the short URL reads as intentional, not default
+- **Memorable**: you can say "linkedin.com/in/sergebulaev" in conversation
+- **SEO**: Google ranks canonical URLs higher than hash-tail URLs
+- **Email signatures**: the short URL reads as intentional, not default
 
 ---
 
@@ -106,10 +106,10 @@ Never: `linkedin.com/in/firstname-lastname-123abc456`
 
 ### How to request (the right way)
 
-1. **Email or call first** — don't use LinkedIn's generic auto-request
-2. **Ask for specifics** — "about [specific project / skill / outcome]"
-3. **Offer to draft bullets** — make it 2 minutes of their time
-4. **Reciprocate** — write theirs first, then ask
+1. **Email or call first**: don't use LinkedIn's generic auto-request
+2. **Ask for specifics**: "about [specific project / skill / outcome]"
+3. **Offer to draft bullets**: make it 2 minutes of their time
+4. **Reciprocate**: write theirs first, then ask
 
 ### Template for the ask
 
@@ -131,5 +131,5 @@ Also happy to write yours first if that helps.
 ### Rotation
 
 - Target **3 recommendations per year** from current context
-- After a role change, ask for 1-2 from the old role (not 5 — looks desperate)
+- After a role change, ask for 1-2 from the old role (not 5, it looks desperate)
 - Diverse contexts matter: colleagues, clients, vendors, direct reports

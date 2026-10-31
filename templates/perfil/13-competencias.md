@@ -11,4 +11,4 @@
 | # | Competência | Vínculos exibidos | Det. | Endossos |
 |---|---|---|:-:|:-:|
 
-"—" = não exibido. *Det.* = "Exibir todos os N detalhes".
+"-" = não exibido. *Det.* = "Exibir todos os N detalhes".

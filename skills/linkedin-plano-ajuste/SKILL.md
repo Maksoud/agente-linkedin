@@ -14,15 +14,15 @@ Objetivo: um documento que o solicitante segue **sozinho**, etapa por etapa, com
 2. Ler a metodologia: `references/linkedin-profile-optimizer.md` + o reference da seção em análise + `references/adaptacao-pt-br.md` + `references/mapa-campos-linkedin.md` + `references/segundo-idioma.md`.
 3. Verificar em `perfil/07-idiomas.md` se existe **perfil em outro idioma**.
 
-## Passo 1 — Scorecard
+## Passo 1: Scorecard
 
-`analise/AAAA-MM-DD-scorecard.md`: os 9 componentes da SKILL (foto, banner, headline, Sobre, Destaques, experiência, competências, URL, recomendações) + complementares (formação, certificados, cursos, projetos, idiomas, Open to Work, Serviços, segundo idioma). Para cada um: ✅ passa · ⚠️ precisa ajuste · ❌ falha · "sem nota — dados não fornecidos"; motivo em 1 linha com a regra aplicada. Ordenar correções por impacto no objetivo do questionário.
+`analise/AAAA-MM-DD-scorecard.md`: os 9 componentes da SKILL (foto, banner, headline, Sobre, Destaques, experiência, competências, URL, recomendações) + complementares (formação, certificados, cursos, projetos, idiomas, Open to Work, Serviços, segundo idioma). Para cada um: ✅ passa · ⚠️ precisa ajuste · ❌ falha · "sem nota: dados não fornecidos"; motivo em 1 linha com a regra aplicada. Ordenar correções por impacto no objetivo do questionário.
 
-## Passo 2 — Plano (`proposta/AAAA-MM-DD-plano-ajuste.md`)
+## Passo 2: Plano (`proposta/AAAA-MM-DD-plano-ajuste.md`)
 
 Usar `templates/plano-ajuste.md`. Estrutura:
 
-- **Etapa 0 — Proteção:** desligar "Compartilhar atualizações do perfil"; Open to Work conforme decisão; outros ajustes de privacidade decididos.
+- **Etapa 0 (Proteção):** desligar "Compartilhar atualizações do perfil"; Open to Work conforme decisão; outros ajustes de privacidade decididos.
 - **Uma etapa por categoria**, na ordem de `mapa-campos-linkedin.md` (só as que precisam de mudança; as que passam ficam listadas como "sem alteração"):
   Introdução (headline, cargo atual, localização, setor) · URL · Contato/sites · Competências (adicionar, remover, Top 3, vínculos) · Experiências (uma subetapa por cargo) · Sobre · Destaques · Banner · Foto · Projetos · Formação acadêmica · Licenças e certificados · Cursos · Outras seções (voluntariado, publicações, prêmios, organizações) · Idiomas · Serviços · Recomendações (mensagens de pedido) · Segundo idioma.
 
@@ -40,7 +40,7 @@ Cada item do plano tem **sempre**:
 
 Fechar com: **Dados a confirmar** (todos os `[MÉTRICA]`, `[DATA]`…), **Itens fora do texto** (produzir banner, foto, miniaturas 1200×627, pedir recomendações) e **Checklist de consistência** (headline × Top 3 × Sobre × cargo atual × banner usando os mesmos termos).
 
-## Passo 3 — Segundo idioma
+## Passo 3: Segundo idioma
 
 Seguir `references/segundo-idioma.md`:
 - Perfil secundário **existe** ⇒ `proposta/AAAA-MM-DD-plano-ajuste-<código>.md` com `templates/plano-ajuste-idioma.md`, espelhando as etapas (mesmos números de etapa), só campos traduzíveis; aplicar após a etapa em português.

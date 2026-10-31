@@ -13,4 +13,4 @@
 - (Sobre) Trecho antes do "ver mais" (até 275 caracteres): "[...]"
 
 ## Observações
-- [erros de digitação, termos repetidos, itens sem vínculo — sem nota, só fato]
+- [erros de digitação, termos repetidos, itens sem vínculo; sem nota, só fato]

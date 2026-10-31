@@ -6,7 +6,7 @@
 - **Full length:** 200-300 words (1,000-1,500 characters)
 - **Voice:** first person ("I help...") never third person ("Jane is a passionate...")
 
-The hook is everything — most readers never click "see more", so the first 265 chars have to carry the whole pitch.
+The hook is everything: most readers never click "see more", so the first 265 chars have to carry the whole pitch.
 
 ## 7-Step Structure
 
@@ -27,7 +27,7 @@ Why do most B2B founders burn 40% of their pipeline on bad-fit leads?
 
 I help 1-10M ARR SaaS founders rebuild their inbound motion around signal, not volume.
 
-Last year my team cut acquisition cost 62% for three portfolio companies and grew pipeline 3.4x — the full case studies are in Featured.
+Last year my team cut acquisition cost 62% for three portfolio companies and grew pipeline 3.4x: the full case studies are in Featured.
 
 What I do: AI-native demand gen. I audit your funnel, rewire the signal layer, and install an always-on content engine that brings the right 50 buyers to you each quarter (instead of 5,000 strangers).
 
@@ -40,15 +40,15 @@ Want the demand-gen audit I run for new clients? Comment "AUDIT" on my latest po
 
 **Why this works:**
 - First 265 chars ("Why do most B2B founders burn 40% of their pipeline on bad-fit leads? I help 1-10M ARR SaaS founders rebuild their inbound motion around signal, not volume.") earns the "see more" click
-- Concrete numbers (40%, 62%, 3.4x, 50, 5,000) — not "significant lift"
+- Concrete numbers (40%, 62%, 3.4x, 50, 5,000): not "significant lift"
 - Specialties line packed with search keywords
 - CTA is specific and low-friction
 
 ## Anti-patterns
 
-- "Passionate thought leader" — empty signal
-- "Buzzwords without substance" — "innovative", "synergy", "disruptor"
-- Third-person corporate speak — "Jane is a seasoned professional with over 15 years..."
+- "Passionate thought leader": empty signal
+- "Buzzwords without substance": "innovative", "synergy", "disruptor"
+- Third-person corporate speak: "Jane is a seasoned professional with over 15 years..."
 - Wall of text with no formatting (mobile kills it)
 - Starting with "Welcome to my LinkedIn!" or "Hello!"
 - Ending with "Let's connect!" (dead CTA)

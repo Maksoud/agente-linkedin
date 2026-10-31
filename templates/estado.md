@@ -3,7 +3,7 @@
 > Atualizar ao fim de cada fluxo ou etapa aplicada. Ler no início de toda sessão.
 
 **Solicitante:** [nome] · **Perfil:** linkedin.com/in/[slug] · **Tratamento:** [masculino/feminino/neutro]
-**Idioma principal do perfil:** [ ] · **Perfil em segundo idioma:** [sim — qual / não / não verificado]
+**Idioma principal do perfil:** [ ] · **Perfil em segundo idioma:** [sim (qual) / não / não verificado]
 
 | Fluxo | Status | Data | Arquivo(s) | Observação |
 |---|---|---|---|---|

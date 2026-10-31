@@ -5,7 +5,7 @@ description: "Audit and rewrite a LinkedIn profile end-to-end for 2026: headline
 
 # LinkedIn Profile Optimizer
 
-> Fonte original: https://github.com/sergebulaev/linkedin-skills/blob/main/skills/linkedin-profile-optimizer/SKILL.md (Sergey Bulaev), licença MIT — ver `LICENSE-linkedin-skills.md`. Copiada sem alterações no conteúdo; adaptações em `adaptacao-pt-br.md`.
+> Fonte original: https://github.com/sergebulaev/linkedin-skills/blob/main/skills/linkedin-profile-optimizer/SKILL.md (Sergey Bulaev), licença MIT (ver `LICENSE-linkedin-skills.md`). Copiada sem alterações no conteúdo; adaptações em `adaptacao-pt-br.md`.
 
 Audit the nine components of a LinkedIn profile (photo, banner, headline, About, Featured, Experience, Skills, custom URL, recommendations) against 2026 best practices, then rewrite each section that needs it. Optimized profiles get ~3.9x more views and convert visitors 3-5x better than default/resume-style profiles.
 
@@ -22,7 +22,7 @@ Audit the nine components of a LinkedIn profile (photo, banner, headline, About,
 
 - Profile text: headline, About, Experience entries, Skills, custom URL
 - The visual three (photo, banner, Featured): screenshots, or a sentence describing each
-- Goal: **clients** / **job seeking** / **authority** — Featured and CTA vary by goal
+- Goal: **clients** / **job seeking** / **authority**: Featured and CTA vary by goal
 - Optional: draft content to grade against the existing profile
 
 If the user supplies only a URL, ask for the text before scoring anything. Never score a section you have not been shown, and never infer profile content from the URL slug.
@@ -40,7 +40,7 @@ A structured audit + rewrite in this shape:
 
 1. **Intake.** Collect profile state + goal. If only a URL arrived, ask for the pasted text first. Flag missing sections.
 2. **Score each of 9 sections** against the checklist (see references/).
-3. **Rewrite headline** using `[What You Do] | [Who You Help] [Achieve What Result]` — fit all 220 chars.
+3. **Rewrite headline** using `[What You Do] | [Who You Help] [Achieve What Result]`: fit all 220 chars.
 4. **Rebuild About** with 7-step structure; verify first **265-275 chars** hook before "see more".
 5. **Curate Featured** (3 strong items) matched to the goal:
    - **Clients:** lead magnet + case study with results + calendar link
@@ -48,7 +48,7 @@ A structured audit + rewrite in this shape:
    - **Authority:** best content + media/podcast features + newsletter signup
 6. **Rewrite Experience bullets** as `action verb + specific metric`. Add 5+ skills per role. Pin top 3 skills.
 7. **Claim custom URL** (linkedin.com/in/firstnamelastname, not the `-123abc456` default).
-8. **Draft recommendation requests** with specifics ("about [project/skill]") — don't send LinkedIn's generic template.
+8. **Draft recommendation requests** with specifics ("about [project/skill]"): don't send LinkedIn's generic template.
 9. **Deliver before/after diff** + expected uplift (3.9x views, 3-5x conversion, 71% more likely to land interviews).
 
 ## Nine-component scorecard
@@ -84,14 +84,14 @@ Global voice rules: see root `SKILL.md` §Voice rules. Additional skill-specific
 
 ## Reference files
 
-- `references/profile-headline-formulas.md` — 220-char formula + before/after examples
-- `references/about-section-templates.md` — 7-step structure with character budgets
-- `references/featured-section-playbook.md` — goal-matched content types
-- `references/banner-photo-specs.md` — dimensions, composition, mobile test
-- `references/experience-skills-rules.md` — bullet rewriting + skills strategy + custom URL + recommendations
+- `references/profile-headline-formulas.md`: 220-char formula + before/after examples
+- `references/about-section-templates.md`: 7-step structure with character budgets
+- `references/featured-section-playbook.md`: goal-matched content types
+- `references/banner-photo-specs.md`: dimensions, composition, mobile test
+- `references/experience-skills-rules.md`: bullet rewriting + skills strategy + custom URL + recommendations
 
 ## Related skills
 
-- `linkedin-content-planner` — post pillars should echo the profile's headline/About thesis
-- `linkedin-post-writer` — Featured section rotates quarterly; pin your flagship post
-- `linkedin-humanizer` — scrub profile copy for the same AI tells we scrub from posts
+- `linkedin-content-planner`: post pillars should echo the profile's headline/About thesis
+- `linkedin-post-writer`: Featured section rotates quarterly; pin your flagship post
+- `linkedin-humanizer`: scrub profile copy for the same AI tells we scrub from posts

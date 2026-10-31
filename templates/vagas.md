@@ -1,9 +1,9 @@
-# Oportunidades — [AAAA-MM-DD]
+# Oportunidades · [AAAA-MM-DD]
 
 > **Skill:** linkedin-buscar-vagas · **Navegador:** Chrome logado · **Modo:** somente leitura
 > **Base:** `analise/[decisoes].md`
 > **Buscas (caixa de pesquisa + filtros da interface):**
-> 1. `[termos]` — filtros: [Remoto · Brasil · Pleno-sênior+ · últimos 30 dias]
+> 1. `[termos]`, filtros: [Remoto · Brasil · Pleno-sênior+ · últimos 30 dias]
 > **Alterações automáticas da plataforma:** [ex.: filtro de salário incluído, filtro de nível removido]
 > **Mapeamento da pontuação:** cargo-alvo = [ ] · núcleo = [ ] · tema estratégico = [ ] · secundária = [ ] · setor = [ ] · diferencial = [ ]
 > **Totais:** [N] vagas lidas · **[N] aprovadas** · [N] descartadas: [motivo N · …]

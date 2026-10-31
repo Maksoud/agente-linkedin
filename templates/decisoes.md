@@ -1,4 +1,4 @@
-# Decisões do questionário — [AAAA-MM-DD]
+# Decisões do questionário · [AAAA-MM-DD]
 
 > Base: `perfil/09-questionario.md` (lido em [data]). Respostas têm precedência sobre a SKILL genérica.
 

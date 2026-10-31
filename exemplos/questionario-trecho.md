@@ -8,7 +8,7 @@
 > R: Quero ser visto como produto de dados, não como "o cara do Power BI".
 
 ## 8. Segundo idioma
-*O que vi no perfil:* existe perfil em English (headline de 2023, Sobre vazio). Idiomas: Inglês — avançado.
+*O que vi no perfil:* existe perfil em English (headline de 2023, Sobre vazio). Idiomas: Inglês avançado.
 
 **8.1** Perfil em outro idioma:
 - [ ] Manter/atualizar o existente (English)
@@ -20,4 +20,4 @@
 ### Como o agente tratou (em `analise/2026-11-04-decisoes.md`)
 | Pergunta | Suposição conservadora | Impacto |
 |---|---|---|
-| 8.1 (em branco) | Atualizar o perfil English existente (já é público e está desatualizado — deixá-lo assim expõe texto antigo) | Gera `plano-ajuste-en.md`; perguntar na entrega |
+| 8.1 (em branco) | Atualizar o perfil English existente (já é público e está desatualizado; deixá-lo assim expõe texto antigo) | Gera `plano-ajuste-en.md`; perguntar na entrega |

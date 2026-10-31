@@ -1,14 +1,14 @@
-# Plano de ajuste do perfil — 06/11/2026
+# Plano de ajuste do perfil · 06/11/2026
 
 > **Para:** Marcos Andrade · **Objetivo:** job seeking discreto → Data Product Manager remoto
 > **Base:** `perfil/` (03/11) · `analise/2026-11-04-decisoes.md` · `analise/vagas/2026-11-05-vagas.md` · `analise/2026-11-06-scorecard.md`
 > ⚠️ O agente não altera o seu perfil. Cole exatamente o bloco "Depois".
 
-## Etapa 0 — Proteção
+## Etapa 0: Proteção
 - [ ] Eu → Configurações e privacidade → Visibilidade → **Compartilhar atualizações do perfil → Desativado**
 - [ ] Open to Work: manter **Apenas recrutadores**; cargos: Data Product Manager, Product Owner de Dados
 
-## Etapa 1 — Introdução → Headline
+## Etapa 1: Introdução → Headline
 
 **Onde:** Perfil → ✏️ (Introdução) → Título · **Ação:** Substituir
 
@@ -23,19 +23,19 @@ Transformo dados de varejo em produtos que orientam preço, estoque e experiênc
 ```
 - Contagem: 152/220
 - Por quê: fórmula [O que faz] | [Para quem] [Resultado]; "Produto de Dados" e "Experimentação" aparecem em 14 e 9 das 18 vagas; remove termo proibido; Power BI sai do headline (resposta 3.3)
-- Riscos: "Power BI" é buscado por recrutadores de BI — aceitável, pois o alvo é produto (3.3). Sem a Etapa 0, notifica a rede.
+- Riscos: "Power BI" é buscado por recrutadores de BI, mas é aceitável, pois o alvo é produto (3.3). Sem a Etapa 0, notifica a rede.
 - [ ] Aplicado em ___/___
 
-## Etapa 3 — Experiência → Loja Exemplo · Analista de BI Sênior
+## Etapa 3: Experiência → Loja Exemplo · Analista de BI Sênior
 
 **Onde:** Experiência → ✏️ no cargo "Analista de BI Sênior"
 
 | Campo | Antes | Depois |
 |---|---|---|
-| Título | Analista de BI Sênior | (manter — título oficial) |
+| Título | Analista de BI Sênior | (manter: título oficial) |
 | Competências (até 5) | Power BI, SQL | Produto de dados, Experimentação A/B, SQL, Power BI, Gestão de stakeholders |
 
-**Descrição — Depois**
+**Descrição (Depois)**
 ```
 Produto de dados para as áreas de preço e estoque de uma rede varejista nacional.
 
@@ -49,4 +49,4 @@ Produto de dados para as áreas de preço e estoque de uma rede varejista nacion
 ## Dados a confirmar
 | Placeholder | Etapa | O que preciso |
 |---|---|---|
-| [MÉTRICA] | 3 | Ganho de conversão dos testes A/B — pode ser genérico ("dois dígitos")? |
+| [MÉTRICA] | 3 | Ganho de conversão dos testes A/B. Pode ser genérico ("dois dígitos")? |

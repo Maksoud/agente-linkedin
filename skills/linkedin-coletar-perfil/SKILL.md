@@ -15,8 +15,8 @@ Objetivo: registrar o **estado atual** do perfil, seção por seção, para aná
 
 ## Fontes (nesta ordem)
 
-1. **`entrada/Profile.pdf`** — export oficial (*Perfil → Recursos/Mais → Salvar como PDF*), feito pelo solicitante. Se não existir, pedir; o agente não baixa o PDF. Ler com a skill de leitura de PDF.
-2. **Perfil online (Chrome logado, visão do dono)** — para o que o PDF não exporta: foto, banner, Destaques, atividade, Serviços, Open to Work, sites, competências completas com vínculos e endossos, certificados completos, projetos, recomendações, cursos, voluntariado, publicações, prêmios, perfil em outro idioma.
+1. **`entrada/Profile.pdf`**: export oficial (*Perfil → Recursos/Mais → Salvar como PDF*), feito pelo solicitante. Se não existir, pedir; o agente não baixa o PDF. Ler com a skill de leitura de PDF.
+2. **Perfil online (Chrome logado, visão do dono)**: serve para o que o PDF não exporta: foto, banner, Destaques, atividade, Serviços, Open to Work, sites, competências completas com vínculos e endossos, certificados completos, projetos, recomendações, cursos, voluntariado, publicações, prêmios, perfil em outro idioma.
 3. **Prints/texto colado** pelo solicitante em `entrada/` (quando o online não for possível).
 
 ## Navegação online (resumo das regras)
@@ -45,7 +45,7 @@ Usar os modelos de `templates/perfil/`. Cabeçalho de cada arquivo: fonte (PDF/o
 | `10-projetos.md` | Nome, datas, descrição, vínculo com experiência, colaboradores |
 | `11-recomendacoes.md` | Recebidas (autor, cargo, relação, data, resumo) e dadas; total |
 | `12-outras-secoes.md` | Cursos, voluntariado, publicações, patentes, prêmios, notas de testes, organizações, causas |
-| `13-competencias.md` | Lista na ordem do perfil, Top 3 fixadas, vínculos exibidos, endossos (— se não exibido), total /100 |
+| `13-competencias.md` | Lista na ordem do perfil, Top 3 fixadas, vínculos exibidos, endossos ("-" se não exibido), total /100 |
 
 (O `09-questionario.md` é criado pela skill `linkedin-questionario-perfil`.)
 
@@ -59,4 +59,4 @@ Usar os modelos de `templates/perfil/`. Cabeçalho de cada arquivo: fonte (PDF/o
 ## Ao terminar
 
 1. Atualizar `estado.md` (Fluxo 1 ✅ ou 🟡 com o que ficou ⏳).
-2. No chat: 3–5 linhas — seções lidas, o que ficou pendente, se há perfil em segundo idioma, maior divergência encontrada. Próximo passo: questionário (`linkedin-questionario-perfil`).
+2. No chat: 3–5 linhas com seções lidas, o que ficou pendente, se há perfil em segundo idioma, maior divergência encontrada. Próximo passo: questionário (`linkedin-questionario-perfil`).

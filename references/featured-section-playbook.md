@@ -2,9 +2,9 @@
 
 ## Why it matters
 
-- **80% of users leave Featured empty** — filling it well is a free edge
+- **80% of users leave Featured empty**: filling it well is a free edge
 - Featured content drives **30% longer viewing time** on your profile
-- It's the only section where YOU choose what's shown first — use it
+- It's the only section where YOU choose what's shown first: use it
 
 ## Quality over quantity
 
@@ -31,9 +31,9 @@
 
 ### If your goal is clients
 
-1. **Lead magnet** — free guide, template, or tool that solves one acute problem your ICP has
-2. **Case study with results** — named client + specific metric + before/after
-3. **Calendar booking link** — direct path to a call (Calendly, Cal.com, Savvycal)
+1. **Lead magnet**: free guide, template, or tool that solves one acute problem your ICP has
+2. **Case study with results**: named client + specific metric + before/after
+3. **Calendar booking link**: direct path to a call (Calendly, Cal.com, Savvycal)
 
 Example:
 - Featured 1: "The 7-question audit I run before taking a client" (PDF)
@@ -42,9 +42,9 @@ Example:
 
 ### If your goal is job seeking
 
-1. **Portfolio / personal site** — your best work samples
-2. **Top-performing LinkedIn post** — demonstrates voice + engagement
-3. **Signature project** — a GitHub repo, design case study, or published research
+1. **Portfolio / personal site**: your best work samples
+2. **Top-performing LinkedIn post**: demonstrates voice + engagement
+3. **Signature project**: a GitHub repo, design case study, or published research
 
 Example:
 - Featured 1: "15 projects I shipped this year" (personal site)
@@ -53,14 +53,14 @@ Example:
 
 ### If your goal is authority
 
-1. **Best content piece** — the post or essay you're most proud of
-2. **Media / podcast feature** — external validation
-3. **Newsletter signup** — gets the visitor off LinkedIn and into your owned channel
+1. **Best content piece**: the post or essay you're most proud of
+2. **Media / podcast feature**: external validation
+3. **Newsletter signup**: gets the visitor off LinkedIn and into your owned channel
 
 Example:
-- Featured 1: "Why SaaS pricing is broken — my 3,000-word teardown" (article)
-- Featured 2: "I was on The Operator Podcast — full episode here" (external)
-- Featured 3: "The Weekly Teardown — join 12K+ subscribers" (newsletter)
+- Featured 1: "Why SaaS pricing is broken: my 3,000-word teardown" (article)
+- Featured 2: "I was on The Operator Podcast: full episode here" (external)
+- Featured 3: "The Weekly Teardown: join 12K+ subscribers" (newsletter)
 
 ## Rotation schedule
 
@@ -73,5 +73,5 @@ Example:
 - Featuring your current company's corporate blog post (better to feature your own content about it)
 - Generic "About our services" PDF (nobody downloads)
 - A 2019 webinar recording (feels dated)
-- Random "selected writing" — be deliberate, not kitchen-sink
+- Random "selected writing": be deliberate, not kitchen-sink
 - Leaving default Featured content from a connection's post

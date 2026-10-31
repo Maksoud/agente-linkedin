@@ -14,12 +14,12 @@ A SKILL de auditoria pede três entradas que o perfil não revela: objetivo (*cl
 2. Ler `references/linkedin-profile-optimizer.md` (seções *Input* e *Steps*) e `references/segundo-idioma.md`.
 3. Se `perfil/09-questionario.md` já existir, **não sobrescrever**: copiar para `backup/AAAA-MM-DD-09-questionario.md` e só acrescentar perguntas novas.
 
-## Parte A — Montar o questionário
+## Parte A: Montar o questionário
 
 Partir de `templates/questionario.md` e **personalizar**:
 
 1. **Cabeçalho "O que vi no perfil"** em cada seção: 1–3 fatos de `perfil/` que motivam as perguntas (ex.: "Headline cita a ferramenta X 2 vezes"; "3 cargos sem métrica"; "Open to Work: só recrutadores").
-2. **Perguntas gatilho** — acrescentar quando o dado aparecer na coleta:
+2. **Perguntas gatilho**: acrescentar quando o dado aparecer na coleta:
    | Achado na coleta | Pergunta a acrescentar |
    |---|---|
    | Datas sobrepostas ou lacunas | Explicar sobreposição; manter/ajustar? |
@@ -39,7 +39,7 @@ Seções obrigatórias (do template): 0 Tratamento · 1 Confidencialidade (bloqu
 
 Salvar em `perfil/09-questionario.md`. No chat: dizer quantas perguntas, quais são bloqueantes, e pedir que responda direto no arquivo (pode ser por partes). **Parar** e aguardar.
 
-## Parte B — Consolidar respostas
+## Parte B: Consolidar respostas
 
 Quando o solicitante avisar que respondeu:
 1. Reler o arquivo inteiro (respostas podem ter mudado).

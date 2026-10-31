@@ -9,9 +9,9 @@
 ```
 
 Three parts separated by `|`. Each part does one job:
-- **What You Do** — your actual function, not your title
-- **Who You Help** — the specific audience
-- **Achieve What Result** — the concrete outcome
+- **What You Do**: your actual function, not your title
+- **Who You Help**: the specific audience
+- **Achieve What Result**: the concrete outcome
 
 ## Rules
 
@@ -19,7 +19,7 @@ Three parts separated by `|`. Each part does one job:
 2. **Be specific about who you help.** "B2B SaaS founders 1-10M ARR" beats "business owners".
 3. **Include keywords recruiters search for.** Search-matched headlines appear in 3x more recruiter results.
 4. **No filler adjectives.** Cut "passionate", "driven", "results-oriented".
-5. **Capitalize names, products, companies** — "Claude", "HubSpot", "Co.Actor".
+5. **Capitalize names, products, companies**: "Claude", "HubSpot", "Co.Actor".
 
 ## Before → After
 
@@ -50,11 +50,11 @@ Three parts separated by `|`. Each part does one job:
 
 ## Anti-patterns (auto-fail)
 
-- "Passionate thought leader" — empty signal
-- "Driven professional" — empty
-- "10+ years of experience in..." — nobody searches this
+- "Passionate thought leader": empty signal
+- "Driven professional": empty
+- "10+ years of experience in...": nobody searches this
 - All-caps headlines
-- Emoji chains (🚀🔥💡) — read as low-effort
+- Emoji chains (🚀🔥💡): read as low-effort
 - Generic "Open to Work" framing (move that to the banner badge, not headline)
 
 ## Search-keyword placement

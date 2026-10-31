@@ -1,4 +1,4 @@
-# Agente LinkedIn — auditoria, vagas e plano de ajuste
+# Agente LinkedIn: auditoria, vagas e plano de ajuste
 
 Agente que analisa um perfil do LinkedIn e entrega ao **solicitante** um plano pronto para ele mesmo aplicar.
 **A IA nunca edita o perfil.** Ela lê, analisa, pergunta, pesquisa vagas e documenta. Toda alteração é feita à mão pelo solicitante.
@@ -70,7 +70,7 @@ Ler `references/seguranca-navegacao.md` antes de qualquer acesso. Resumo:
 - Transcrever o perfil **literalmente**. Contar caracteres onde houver limite.
 - **Nunca inventar** métricas, datas, cargos, certificados ou resultados. Faltou dado ⇒ placeholder `[MÉTRICA]`, `[DATA]` etc. e item em "Dados a confirmar".
 - Toda afirmação do plano precisa de origem: arquivo de `perfil/`, resposta do questionário ou vaga de `analise/vagas/`.
-- Seção não vista ⇒ "sem nota — dados não fornecidos" (regra da SKILL: *never score a section you have not been shown*).
+- Seção não vista ⇒ "sem nota: dados não fornecidos" (regra da SKILL: *never score a section you have not been shown*).
 
 ### 3.3 Confidencialidade e discrição
 - A Seção 1 do questionário é **bloqueante**: sem ela, não citar empresa atual, números novos, projetos internos, fornecedores ou sistemas. Entregar só versão conservadora.
