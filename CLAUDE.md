@@ -14,10 +14,10 @@ Cada fluxo é uma **SKILL** em `skills/<nome>/SKILL.md`. Este arquivo orquestra;
 
 | # | Fluxo | Skill | Entrada | Saída | Portão para seguir |
 |---|---|---|---|---|---|
-| 1 | Coleta do perfil | `skills/linkedin-coletar-perfil/` | `entrada/Profile.pdf`, perfil online (Chrome logado), prints | `perfil/*.md` (+ `backup/`) | Todas as seções lidas ou marcadas ⏳ |
-| 2 | Questionário de objetivo | `skills/linkedin-questionario-perfil/` | `perfil/*.md` + `references/linkedin-profile-optimizer.md` | `perfil/09-questionario.md` → `analise/AAAA-MM-DD-decisoes.md` | Seções 1 (Confidencialidade) e 2 (Objetivo) respondidas |
+| 1 | Coleta do perfil | `skills/linkedin-coletar-perfil/` | perfil online (Chrome logado, recomendado) ou dados copiados pelo solicitante; PDF/prints só como apoio | `perfil/*.md` (+ `backup/`) | Todas as seções lidas ou marcadas ⏳ |
+| 2 | Questionário de objetivo | `skills/linkedin-questionario-perfil/` | `perfil/*.md` + `references/linkedin-profile-optimizer.md` | `perfil/09-questionario.md` → `analise/AAAA-MM-DD-decisoes.md` | Seções 1 (Confidencialidade) e 2 (Objetivo) respondidas, e 9.1/9.1a (modalidade e local) antes do Fluxo 3 |
 | 3 | Busca de oportunidades | `skills/linkedin-buscar-vagas/` | decisões + perfil | `analise/vagas/AAAA-MM-DD-vagas.md` (até 50) + `analise/AAAA-MM-DD-termos-vagas.md` | Lista salva ou bloqueio registrado |
-| 4 | Plano de ajuste | `skills/linkedin-plano-ajuste/` | tudo acima | `proposta/AAAA-MM-DD-plano-ajuste.md` (+ `-<idioma>.md`) | Solicitante aplica etapa por etapa |
+| 4 | Plano de ajuste | `skills/linkedin-plano-ajuste/` | tudo acima (questionário **respondido**, ver 3.4) | `proposta/AAAA-MM-DD-plano-ajuste.md` (+ `-<idioma>.md`) | Solicitante aplica etapa por etapa |
 
 **Como acionar:** "siga o agente-linkedin" (o agente lê `estado.md` e continua do fluxo pendente) ou pelo nome da skill ("rode o linkedin-buscar-vagas"). Se as skills estiverem salvas na conta, o nome dispara a skill; senão, ler o `SKILL.md` da pasta e segui-lo.
 
@@ -41,7 +41,7 @@ agente-linkedin/
 ├── templates/           ← modelos de arquivo (perfil/, questionário, vagas, termos, plano, plano em outro idioma)
 ├── scripts/             ← JavaScript SÓ DE LEITURA (detectar-bloqueio, links-da-pagina, ler-texto-pagina, listar-cards-vagas, id-vaga-atual, guardar-vaga)
 ├── exemplos/            ← exemplos preenchidos (persona fictícia)
-├── entrada/             ← Profile.pdf, prints, banner atual (fornecidos pelo solicitante)
+├── entrada/             ← texto copiado, Profile.pdf (apoio), prints, banner atual (fornecidos pelo solicitante)
 ├── perfil/              ← estado ATUAL do perfil, uma seção por arquivo (Fluxo 1)
 ├── backup/              ← cópias de perfil/ antes de cada nova coleta ou após cada mudança aplicada
 ├── analise/             ← decisões do questionário, scorecard, termos de vagas
@@ -78,7 +78,13 @@ Ler `references/seguranca-navegacao.md` antes de qualquer acesso. Resumo:
 - Se o solicitante busca emprego de forma discreta: nada de "procurando oportunidades", "#OpenToWork" público ou frases que soem como saída.
 - Antes de qualquer etapa que mexa em headline, cargo ou experiência: Etapa 0 do plano (desligar "Compartilhar atualizações do perfil").
 
-### 3.4 Metodologia
+### 3.4 Questionário antes do plano
+- O plano final em formato de lista de tarefas (Fluxo 4, `proposta/`) **só é gerado depois que o solicitante responder o questionário** (`perfil/09-questionario.md`). Sem respostas, não entregar o plano, nem como rascunho.
+- Ao encontrar **informações conflitantes** (entre seções do perfil, entre PDF e perfil online, entre perfil e respostas, ou entre o objetivo declarado e o que as vagas pedem), **adicionar novas perguntas ao questionário** e aguardar a resposta antes de seguir.
+- Registrar cada conflito e a pergunta criada em `analise/AAAA-MM-DD-decisoes.md`.
+- Objetivo: lista de tarefas aderente aos interesses do solicitante **e** ao mercado (vagas do Fluxo 3).
+
+### 3.5 Metodologia
 - Base: `references/linkedin-profile-optimizer.md` (SKILL original, em inglês) + `references/*.md` de cada seção + `references/adaptacao-pt-br.md`.
 - A SKILL cita "root SKILL.md §Voice rules" e skills relacionadas que **não existem** aqui: usar só as *Hard rules* dela e a adaptação PT-BR.
 - As respostas do questionário têm **precedência** sobre recomendações genéricas da SKILL.

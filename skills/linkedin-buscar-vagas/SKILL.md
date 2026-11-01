@@ -13,7 +13,7 @@ Objetivo: **ajustar o perfil ao padrão do mercado**, não procurar emprego. As 
    - Sem decisões do questionário ⇒ avisar que a busca será genérica (cargos do headline atual) e pedir confirmação.
 2. Ler `references/seguranca-navegacao.md` e `references/criterios-vagas.md`.
 3. Ler execuções anteriores em `analise/vagas/` para **não repetir** vagas (empresa + título).
-4. Montar o **plano de busca** (registrar no cabeçalho do relatório): 3–5 buscas a partir dos cargos-alvo e termos do questionário; filtros (modalidade, local, nível, data ≤ 30 dias); mapeamento dos critérios de pontuação para termos concretos.
+4. Montar o **plano de busca** (registrar no cabeçalho do relatório): 3–5 buscas a partir dos cargos-alvo e termos do questionário; filtros (modalidade e local conforme 9.1–9.1c das decisões; se não respondidos, parar e pedir; nível, data ≤ 30 dias); mapeamento dos critérios de pontuação para termos concretos.
 
 ## Navegador e discrição
 

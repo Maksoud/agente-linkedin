@@ -35,7 +35,7 @@ Partir de `templates/questionario.md` e **personalizar**:
 3. Opções marcáveis `[ ]` sempre que possível; campo `> R:` em todas. Indicar quando a pergunta é **bloqueante**.
 4. Nunca pré-responder pelo solicitante. Pode sugerir "Ex.:" de formato.
 
-Seções obrigatórias (do template): 0 Tratamento · 1 Confidencialidade (bloqueante) · 2 Objetivo e público · 3 Posicionamento · 4 Experiências e métricas · 5 Competências · 6 Visuais e Destaques · 7 Recomendações · 8 Segundo idioma · 9 Preferências de vagas · 10 Tom e voz.
+Seções obrigatórias (do template): 0 Tratamento · 1 Confidencialidade (bloqueante) · 2 Objetivo e público · 3 Posicionamento · 4 Experiências e métricas · 5 Competências · 6 Visuais e Destaques · 7 Recomendações · 8 Segundo idioma · 9 Preferências de vagas (9.1 e 9.1a obrigatórias antes do Fluxo 3) · 10 Tom e voz.
 
 Salvar em `perfil/09-questionario.md`. No chat: dizer quantas perguntas, quais são bloqueantes, e pedir que responda direto no arquivo (pode ser por partes). **Parar** e aguardar.
 
@@ -45,7 +45,7 @@ Quando o solicitante avisar que respondeu:
 1. Reler o arquivo inteiro (respostas podem ter mudado).
 2. Classificar cada pergunta: respondida · em branco (= "não informado") · contraditória.
 3. Em branco ⇒ **opção mais conservadora** (menor exposição) + registrar a suposição.
-4. Contradições (ex.: "busca discreta" + "Open to Work público") ⇒ perguntar no chat, uma por vez.
+4. Contradições (ex.: "busca discreta" + "Open to Work público") ou conflitos com o perfil/vagas ⇒ **adicionar novas perguntas ao questionário** (seção "Perguntas adicionais", com data e o conflito que as motivou), avisar no chat e aguardar a resposta antes de consolidar.
 5. Gerar `analise/AAAA-MM-DD-decisoes.md` com `templates/decisoes.md`:
    - Objetivo principal/secundário e público;
    - **Lista "nunca publicar"** e **lista "só genérico"**;
@@ -56,6 +56,7 @@ Quando o solicitante avisar que respondeu:
 6. Atualizar `estado.md`. No chat: objetivo em 1 linha + até 3 decisões que mais mudam o plano + a suposição de maior risco. Próximo passo: `linkedin-buscar-vagas`.
 
 ## Regras
+- **O plano (Fluxo 4) só é gerado depois do questionário respondido.** Conflito encontrado em qualquer fluxo ⇒ nova pergunta no questionário + registro em decisões (CLAUDE.md 3.4).
 - A Seção 1 é bloqueante: sem ela, as próximas skills só produzem versão conservadora.
 - Respostas do questionário têm precedência sobre a SKILL genérica.
 - Não salvar no arquivo dados sensíveis que o solicitante não precisa escrever (salário atual, documentos). Pretensão salarial só se ele quiser usá-la como filtro de vagas.

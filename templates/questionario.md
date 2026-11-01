@@ -110,7 +110,14 @@
 > R:
 
 ## 9. Preferências de vagas (para a busca)
-**9.1** Modalidade: - [ ] Remoto  - [ ] Híbrido  - [ ] Presencial  · Cidade/região base:
+**9.1** ⚠️ Modalidade de trabalho que você busca (pode marcar mais de uma):
+- [ ] Remoto  - [ ] Híbrido  - [ ] Presencial
+> R:
+**9.1a** ⚠️ Se marcou Híbrido ou Presencial: em qual(is) cidade(s)/região(ões)? Até quantos dias por semana no escritório?
+> R:
+**9.1b** Aceita mudar de cidade/país por uma vaga? - [ ] Sim  - [ ] Depende (de quê?)  - [ ] Não
+> R:
+**9.1c** Se Remoto: precisa ser 100% remoto, ou aceita idas eventuais ao escritório? Aceita fuso horário diferente?
 > R:
 **9.2** País(es)/região das vagas:
 > R:

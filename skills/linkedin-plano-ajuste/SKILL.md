@@ -10,7 +10,9 @@ Objetivo: um documento que o solicitante segue **sozinho**, etapa por etapa, com
 ## Antes de começar
 
 1. Localizar a pasta do agente; ler `CLAUDE.md`, `estado.md`, todo `perfil/`, `analise/*-decisoes.md` (mais recente), a lista de vagas e o arquivo de termos mais recentes.
-   - Sem decisões ⇒ só versão conservadora (sem empresa atual, números novos, projetos internos, fornecedores) e avisar.
+   - **Portão (CLAUDE.md 3.4):** sem questionário respondido e sem `analise/*-decisoes.md` ⇒ **não gerar o plano** (nem rascunho). Avisar e voltar para `linkedin-questionario-perfil`.
+   - Perguntas abertas ou conflitos pendentes nas decisões ⇒ não gerar o plano; acrescentá-los ao questionário e aguardar resposta.
+   - Se surgir conflito novo durante o plano (entre seções, PDF × online, perfil × respostas, objetivo × vagas) ⇒ parar, adicionar a pergunta ao questionário, registrar em decisões e aguardar.
 2. Ler a metodologia: `references/linkedin-profile-optimizer.md` + o reference da seção em análise + `references/adaptacao-pt-br.md` + `references/mapa-campos-linkedin.md` + `references/segundo-idioma.md`.
 3. Verificar em `perfil/07-idiomas.md` se existe **perfil em outro idioma**.
 

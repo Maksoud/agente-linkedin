@@ -4,16 +4,19 @@ O agente analisa o seu perfil, entende o seu objetivo, procura vagas compatívei
 
 ## Como começar
 
-1. Exporte seu perfil: **Perfil → Recursos (ou "Mais") → Salvar como PDF**. Coloque o arquivo em `entrada/Profile.pdf`.
+1. Escolha como o agente vai obter os dados do perfil:
+   - **Recomendado: pelo navegador.** Deixe o Chrome aberto e logado no LinkedIn; o Claude lê o perfil direto da página (só leitura) e preenche os arquivos de `perfil/`. É a forma mais completa.
+   - **Manual:** se preferir que o Claude não acesse o seu perfil, copie o conteúdo de cada seção do LinkedIn e preencha você mesmo os arquivos de `perfil/` (use os modelos de `templates/perfil/`), ou cole o texto em `entrada/`.
+   - **Evite usar só o PDF** (*Salvar como PDF*): ele deixa de fora muita coisa, como competências, Destaques, projetos, recomendações e certificados completos. Se quiser, coloque em `entrada/Profile.pdf` como apoio.
 2. (Opcional) Coloque prints da foto, banner e Destaques em `entrada/`.
-3. Deixe o Chrome aberto e logado no LinkedIn (para ler o que o PDF não exporta e para buscar vagas).
+3. Para a busca de vagas (Fluxo 3), o Chrome precisa estar logado no LinkedIn.
 4. Peça ao Claude: **"Siga o agente-linkedin a partir do Fluxo 1"**, ou chame a skill do fluxo pelo nome (ex.: **"rode o linkedin-coletar-perfil"**).
 
 ## O que acontece em cada fluxo
 
 | Fluxo | O que o agente faz | O que você faz |
 |---|---|---|
-| 1. Coleta | Lê o PDF e o perfil online, salva cada seção em `perfil/` | Nada (só deixa o Chrome logado) |
+| 1. Coleta | Lê o perfil online (ou confere o que você preencheu) e salva cada seção em `perfil/` | Deixa o Chrome logado, ou preenche `perfil/` manualmente |
 | 2. Questionário | Gera `perfil/09-questionario.md` personalizado | Responde nos campos `> R:` e marca `[x]` |
 | 3. Vagas | Compara o perfil com as competências e os termos que as vagas do mercado pedem para aquela área e salva em `analise/vagas/` | Revisa a lista |
 | 4. Plano | Cria `proposta/…-plano-ajuste.md` com o texto exato de cada seção (e versão no 2º idioma, se houver) | Aplica uma etapa por vez e avisa o agente |

@@ -19,6 +19,9 @@
 | Parâmetro | Valor | Origem |
 |---|---|---|
 | Modalidade | | 9.1 |
+| Cidade/região (híbrido/presencial) e dias no escritório | | 9.1a |
+| Aceita mudança | | 9.1b |
+| Remoto: idas eventuais / fuso | | 9.1c |
 | Local | | 9.2 |
 | Nível mínimo | | 9.3 |
 | Porte mínimo | | 9.4 (padrão se vazio) |

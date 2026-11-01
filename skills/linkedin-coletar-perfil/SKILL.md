@@ -1,6 +1,6 @@
 ---
 name: linkedin-coletar-perfil
-description: Coletar os dados de um perfil do LinkedIn (PDF exportado + leitura online só de leitura) e salvar cada seção em perfil/ do agente-linkedin, com backup. Fluxo 1 do agente.
+description: Coletar os dados de um perfil do LinkedIn (leitura online só de leitura, ou dados copiados pelo solicitante) e salvar cada seção em perfil/ do agente-linkedin, com backup. Fluxo 1 do agente.
 ---
 
 # Coletar dados do perfil (Fluxo 1)
@@ -11,13 +11,15 @@ Objetivo: registrar o **estado atual** do perfil, seção por seção, para aná
 
 1. Localizar a pasta do agente (`agente-linkedin/`, a que contém `CLAUDE.md`, `estado.md`, `references/`). Ler `CLAUDE.md` e `estado.md`.
 2. Ler `references/seguranca-navegacao.md` (obrigatório antes de abrir o LinkedIn) e `references/segundo-idioma.md`.
-3. **Backup:** se `perfil/` já tiver arquivos, copiar tudo para `backup/AAAA-MM-DD-<origem>/` (origem = `pdf` ou `online`) antes de sobrescrever. Nunca editar `backup/`.
+3. **Backup:** se `perfil/` já tiver arquivos, copiar tudo para `backup/AAAA-MM-DD-<origem>/` (origem = `online`, `manual` ou `pdf`) antes de sobrescrever. Nunca editar `backup/`.
 
 ## Fontes (nesta ordem)
 
-1. **`entrada/Profile.pdf`**: export oficial (*Perfil → Recursos/Mais → Salvar como PDF*), feito pelo solicitante. Se não existir, pedir; o agente não baixa o PDF. Ler com a skill de leitura de PDF.
-2. **Perfil online (Chrome logado, visão do dono)**: serve para o que o PDF não exporta: foto, banner, Destaques, atividade, Serviços, Open to Work, sites, competências completas com vínculos e endossos, certificados completos, projetos, recomendações, cursos, voluntariado, publicações, prêmios, perfil em outro idioma.
-3. **Prints/texto colado** pelo solicitante em `entrada/` (quando o online não for possível).
+Perguntar ao solicitante qual opção prefere antes de começar:
+
+1. **Perfil online (recomendado; Chrome logado, visão do dono)**: fonte principal. Ler todas as seções direto da página: headline, Sobre, experiências, formação, foto, banner, Destaques, atividade, Serviços, Open to Work, sites, competências completas com vínculos e endossos, certificados, projetos, recomendações, cursos, voluntariado, publicações, prêmios, perfil em outro idioma.
+2. **Preenchimento manual pelo solicitante**: ele copia os dados do LinkedIn e preenche `perfil/` com os modelos de `templates/perfil/` (ou cola o texto em `entrada/perfil-copiado.md`, e o agente distribui nos arquivos). O agente confere se falta alguma seção e marca ⏳.
+3. **Apoio (opcional)**: `entrada/Profile.pdf` e prints em `entrada/`. **Não usar o PDF como fonte única**: ele não exporta competências, Destaques, projetos, recomendações, certificados completos e outras seções.
 
 ## Navegação online (resumo das regras)
 
@@ -53,7 +55,7 @@ Usar os modelos de `templates/perfil/`. Cabeçalho de cada arquivo: fonte (PDF/o
 
 - Transcrição **literal**; não corrigir erro de digitação (anotar em "Observações").
 - Não ler = ⏳; não inventar.
-- O PDF não exporta tudo: marcar no `00-indice.md` o que veio de cada fonte.
+- Marcar no `00-indice.md` o que veio de cada fonte (online/manual/PDF/print).
 - Divergências típicas a registrar: título do cargo × headline; competências do Sobre × lista; datas de projeto × experiência; seção Idiomas × perfil secundário; termos do banner × headline.
 
 ## Ao terminar
