@@ -1,6 +1,22 @@
 # Agente LinkedIn: guia rápido
 
-O agente analisa o seu perfil, entende o seu objetivo, procura vagas compatíveis e entrega um **plano com os textos prontos** para você colar no LinkedIn. Ele **não altera** o seu perfil.
+O agente torna o seu perfil do LinkedIn **competitivo para a área que você quer**. Ele analisa o perfil, entende o seu objetivo, usa vagas reais como amostra do que o mercado pede e entrega um **plano com os textos prontos** para você colar no LinkedIn. Ele **não altera** o seu perfil.
+
+## Objetivo
+
+O foco é **ajustar o perfil**, não procurar emprego. O agente não é um buscador de vagas nem um ranking de oportunidades.
+
+As vagas servem como **pesquisa de mercado**: delas saem as competências, os termos e os requisitos que as empresas pedem para o cargo-alvo. O agente compara isso com o seu perfil, encontra as lacunas e usa o resultado para reescrever headline, Sobre, experiências e competências na linguagem que o mercado procura.
+
+```
+ Perfil atual ──┐
+                ├──► Agente ──► Lacunas e termos do mercado ──► Plano de ajuste
+ Objetivo ──────┤                                                (textos prontos)
+                │
+ Vagas da área ─┘  (amostra do mercado, não candidaturas)
+```
+
+A nota de aderência de cada vaga existe só para pesar a amostra: termos que aparecem nas vagas mais próximas do seu objetivo têm mais peso no plano.
 
 ## Como começar
 
@@ -18,7 +34,7 @@ O agente analisa o seu perfil, entende o seu objetivo, procura vagas compatívei
 |---|---|---|
 | 1. Coleta | Lê o perfil online (ou confere o que você preencheu) e salva cada seção em `perfil/` | Deixa o Chrome logado, ou preenche `perfil/` manualmente |
 | 2. Questionário | Gera `perfil/09-questionario.md` personalizado | Responde nos campos `> R:` e marca `[x]` |
-| 3. Vagas | Compara o perfil com as competências e os termos que as vagas do mercado pedem para aquela área e salva em `analise/vagas/` | Revisa a lista |
+| 3. Mercado | Lê até 50 vagas da área como amostra, extrai as competências e os termos mais pedidos e compara com o perfil (`analise/vagas/` e `analise/…-termos-vagas.md`) | Revisa as lacunas encontradas |
 | 4. Plano | Cria `proposta/…-plano-ajuste.md` com o texto exato de cada seção (e versão no 2º idioma, se houver) | Aplica uma etapa por vez e avisa o agente |
 
 ## Cuidados que o agente já toma
